@@ -37,7 +37,7 @@ npm start          # http://localhost:8787
 
 ## 배포 (GitHub → Render 자동 배포)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/fkgkth-source/RawfiRoom)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rawfi-rgb/RawfiRoom)
 
 - `main` 브랜치에 푸시할 때마다 GitHub Actions가 빌드 검사(문법 검사 + 서버 실행 확인)를 하고, Render가 자동으로 새 버전을 배포해요 (`render.yaml`).
 - 카메라·마이크·MIDI는 HTTPS에서만 동작해요. Render는 HTTPS를 자동으로 붙여줘요. GitHub Pages는 WebSocket 서버를 실행할 수 없어서 사용하지 않아요.
